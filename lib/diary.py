@@ -1,6 +1,6 @@
 def make_snippet(str):
     arr = str.split(' ')
-    if len(arr) > 6:
+    if len(arr) > 5:
         result = arr[:5]
         return ' '.join(result) + '...'
     else:
